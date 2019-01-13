@@ -102,6 +102,7 @@
     watch: {
       target(value) {
         let me = this;
+        this.page = 1
         Search(new RegExp(value));
       }
     },

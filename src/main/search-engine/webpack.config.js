@@ -1,7 +1,9 @@
+
 module.exports = {
-    entry: './search.worker.js',
-    output: './search.packed.worker.js',
-    node: {
-        fs: 'empty'
+    entry: __dirname+'/search.worker.js',
+    output: {
+        path: __dirname,
+        filename: 'search.packed.worker.js'
+
     }
 }
