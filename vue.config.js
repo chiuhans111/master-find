@@ -22,9 +22,9 @@ module.exports = {
                     .use('worker-loader')
                     .loader('worker-loader')
                     .options({
-                        name: '[name]:[hash:8].js',
-                        //inline: true,
-                        //fallback: false,
+                        // name: '[name]:[hash:8].js',
+                        // inline: true,
+                        // fallback: false,
                         // publicPath: '/scripts/workers/'
                     })
             },

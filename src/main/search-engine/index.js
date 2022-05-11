@@ -7,7 +7,6 @@ import Worker from './search.worker.js'
 console.log(Worker)
 
 
-
 settings.settings.watch('xmlPath', Setup)
 
 let workers = []
